@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+}
+
+.header {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  border-bottom: 1px solid #ccc;
+
+  &__logo {
+    width: 100px;
+    height: auto;
+  }
+
+  &__nav-items > ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 16px;
+    li {
+      margin-left: 10px;
+    }
+  }
+}
+
+.body {
+  .search {
+    padding: 10px;
+  }
+}
+
+.restaurant-container {
+
+  display: flex;
+  flex-wrap: wrap;
+  .res-col {
+    width: 25%;
+    height: 100%;
+    .res-card {
+      padding: 5px;
+      margin: 5px;
+      
+      background-color: #f0f0f0;
+      &:hover {
+        cursor: pointer;
+        border: 1px solid black;
+      }
+
+      &__logo {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+.filter {
+  display: flex;
+  .filter-btn {
+    margin : 10px;
+    cursor: pointer;
+  }
+
+  .search-section {
+    margin: 10px;
+
+    .search-btn {
+      cursor: pointer;
+    }
+  }
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+   img {
+    width: 500px;
+   }
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  .shimmer-col {
+    width: 25%;
+    .shimmer-card {
+      margin : 5px;
+      background-color: #f0f0f0;
+      height: 300px;
+    }
+  }
+}
+
+.login-btn {
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.user-card {
+  padding: 15px;
+  border: 2px solid #333;
+  width: fit-content;
+}
+

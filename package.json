@@ -20,11 +20,13 @@
   },
   "homepage": "https://github.com/Ipsita315/Food_App#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0",
     "parcel": "^2.11.0",
     "process": "^0.11.10"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.1"
   }
 }
